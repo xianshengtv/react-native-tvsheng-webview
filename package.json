@@ -1,0 +1,51 @@
+{
+  "name": "@tvxiansheng/react-native-tvsheng-webview",
+  "description": "React Native WebView component for iOS, Android, macOS, and Windows",
+  "main": "index.js",
+  "main-internal": "src/index.ts",
+  "typings": "index.d.ts",
+  "author": "Tv Xiansheng <tvxiansheng@example.com>",
+  "contributors": [
+    "Thibault Malbranche <malbranche.thibault@gmail.com>"
+  ],
+  "license": "MIT",
+  "version": "1.6.0",
+  "homepage": "https://github.com/xianshengtv/react-native-tvsheng-webview#readme",
+  "scripts": {
+    "ios": "react-native run-ios --project-path example/ios",
+    "start": "cd example && react-native start",
+    "ci": "CI=true && yarn lint",
+    "ci:publish": "yarn semantic-release",
+    "lint": "yarn tsc --noEmit && yarn eslint ./src --ext .ts,.tsx",
+    "build": "yarn tsc",
+    "prepare": "yarn build"
+  },
+  "rn-docs": {
+    "title": "Webview",
+    "type": "Component"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {
+    "escape-string-regexp": "2.0.0",
+    "invariant": "2.2.4"
+  },
+  "devDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.68.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xianshengtv/react-native-tvsheng-webview.git"
+  },
+  "files": [
+    "ios",
+    "lib",
+    "index.js",
+    "index.d.ts",
+    "react-native.config.js",
+    "react-native-tvsheng-webview.podspec"
+  ]
+}
