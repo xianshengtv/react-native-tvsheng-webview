@@ -4,17 +4,17 @@ using System.Collections.Generic;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;
 
-namespace React.Native.Tvsheng.Webview.RNReactNativeTvshengWebview
+namespace Tvsheng.Webview.RNTvshengWebview
 {
     /// <summary>
     /// A module that allows JS to share data.
     /// </summary>
-    class RNReactNativeTvshengWebviewModule : NativeModuleBase
+    class RNTvshengWebviewModule : NativeModuleBase
     {
         /// <summary>
-        /// Instantiates the <see cref="RNReactNativeTvshengWebviewModule"/>.
+        /// Instantiates the <see cref="RNTvshengWebviewModule"/>.
         /// </summary>
-        internal RNReactNativeTvshengWebviewModule()
+        internal RNTvshengWebviewModule()
         {
 
         }
@@ -26,7 +26,7 @@ namespace React.Native.Tvsheng.Webview.RNReactNativeTvshengWebview
         {
             get
             {
-                return "RNReactNativeTvshengWebview";
+                return "RNTvshengWebview";
             }
         }
     }

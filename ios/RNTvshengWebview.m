@@ -1,7 +1,7 @@
 
-#import "RNReactNativeTvshengWebview.h"
+#import "RNTvshengWebview.h"
 
-@implementation RNReactNativeTvshengWebview
+@implementation RNTvshengWebview
 
 - (dispatch_queue_t)methodQueue
 {

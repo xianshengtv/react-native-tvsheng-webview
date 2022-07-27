@@ -5,7 +5,7 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNReactNativeTvshengWebview : NSObject <RCTBridgeModule>
+@interface RNTvshengWebview : NSObject <RCTBridgeModule>
 
 @end
   

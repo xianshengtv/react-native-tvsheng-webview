@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNReactNativeTvshengWebview } = NativeModules;
+const { RNTvshengWebview } = NativeModules;
 
-export default RNReactNativeTvshengWebview;
+export default RNTvshengWebview;

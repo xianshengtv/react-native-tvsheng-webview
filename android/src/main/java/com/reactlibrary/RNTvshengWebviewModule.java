@@ -6,17 +6,17 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 
-public class RNReactNativeTvshengWebviewModule extends ReactContextBaseJavaModule {
+public class RNTvshengWebviewModule extends ReactContextBaseJavaModule {
 
   private final ReactApplicationContext reactContext;
 
-  public RNReactNativeTvshengWebviewModule(ReactApplicationContext reactContext) {
+  public RNTvshengWebviewModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
   }
 
   @Override
   public String getName() {
-    return "RNReactNativeTvshengWebview";
+    return "RNTvshengWebview";
   }
 }
