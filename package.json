@@ -1,7 +1,7 @@
 {
   "name": "react-native-tvsheng-webview",
-  "version": "1.0.1",
-  "description": "A ReactNative tvsheng-webview Component for android and iOS",
+  "version": "1.0.2",
+  "description": "React Native WebView component for iOS, Android, macOS, and Windows",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -40,7 +40,6 @@
     "react-native": "*"
   },
   "deprecated": false,
-  "description": "React Native WebView component for iOS, Android, macOS, and Windows",
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/runtime": "^7.0.0",
