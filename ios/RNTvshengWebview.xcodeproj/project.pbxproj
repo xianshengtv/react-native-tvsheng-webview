@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97BF54A62892654800A7EAB5 /* RNCWKProcessPoolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BF54A02892654700A7EAB5 /* RNCWKProcessPoolManager.m */; };
+		97BF54A72892654800A7EAB5 /* RNCWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BF54A32892654800A7EAB5 /* RNCWebViewManager.m */; };
+		97BF54A82892654800A7EAB5 /* RNCWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BF54A42892654800A7EAB5 /* RNCWebView.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNTvshengWebview.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNTvshengWebview.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +27,12 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNTvshengWebview.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNTvshengWebview.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BF54A02892654700A7EAB5 /* RNCWKProcessPoolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCWKProcessPoolManager.m; sourceTree = "<group>"; };
+		97BF54A12892654700A7EAB5 /* RNCWebViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCWebViewManager.h; sourceTree = "<group>"; };
+		97BF54A22892654700A7EAB5 /* RNCWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCWebView.h; sourceTree = "<group>"; };
+		97BF54A32892654800A7EAB5 /* RNCWebViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCWebViewManager.m; sourceTree = "<group>"; };
+		97BF54A42892654800A7EAB5 /* RNCWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCWebView.m; sourceTree = "<group>"; };
+		97BF54A52892654800A7EAB5 /* RNCWKProcessPoolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCWKProcessPoolManager.h; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNTvshengWebview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTvshengWebview.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNTvshengWebview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTvshengWebview.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +61,12 @@
 			children = (
 				B3E7B5881CC2AC0600A0062D /* RNTvshengWebview.h */,
 				B3E7B5891CC2AC0600A0062D /* RNTvshengWebview.m */,
+				97BF54A22892654700A7EAB5 /* RNCWebView.h */,
+				97BF54A42892654800A7EAB5 /* RNCWebView.m */,
+				97BF54A12892654700A7EAB5 /* RNCWebViewManager.h */,
+				97BF54A32892654800A7EAB5 /* RNCWebViewManager.m */,
+				97BF54A52892654800A7EAB5 /* RNCWKProcessPoolManager.h */,
+				97BF54A02892654700A7EAB5 /* RNCWKProcessPoolManager.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +110,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -112,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97BF54A72892654800A7EAB5 /* RNCWebViewManager.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNTvshengWebview.m in Sources */,
+				97BF54A62892654800A7EAB5 /* RNCWKProcessPoolManager.m in Sources */,
+				97BF54A82892654800A7EAB5 /* RNCWebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +223,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
