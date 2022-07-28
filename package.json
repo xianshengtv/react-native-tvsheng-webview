@@ -1,7 +1,6 @@
-
 {
   "name": "react-native-tvsheng-webview",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A ReactNative tvsheng-webview Component for android and iOS",
   "main": "index.js",
   "scripts": {
@@ -26,6 +25,5 @@
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
-
   }
 }
