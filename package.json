@@ -2,18 +2,30 @@
 {
   "name": "react-native-tvsheng-webview",
   "version": "1.0.0",
-  "description": "",
+  "description": "A ReactNative tvsheng-webview Component for android and iOS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "tvsheng-webview"
   ],
   "author": "",
-  "license": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/xianshengtv/react-native-tvsheng-webview.git"
+  },
   "peerDependencies": {
-    "react-native": "^0.41.2",
+    "react": "*",
+    "react-native": "*",
     "react-native-windows": "0.41.0-rc.1"
 
   }
